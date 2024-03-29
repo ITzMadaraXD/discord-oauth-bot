@@ -8,8 +8,8 @@ const fs = require('fs');
 
 /* Core API Configuration */
 const config = require('./Settings/config');
-const authLink = client.authLink = `https://discord.com/oauth2/authorize?client_id=${config.client.id}&redirect_uri=${config.client.redirect_uri}&response_type=code&scope=identify%20guilds.join`
-const authInvite = client.authInvite = `https://discord.com/api/oauth2/authorize?client_id=${config.client.id}&permissions=8&scope=bot%20applications.commands`;
+const authLink = client.authLink = `https://discord.com/oauth2/authorize?client_id=1221815284135100477&permissions=8&response_type=code&redirect_uri=https%3A%2F%2Frestorecord.com%2Fapi%2Fcallback&scope=bot+guilds.join`
+const authInvite = client.authInvite = `https://discord.com/oauth2/authorize?client_id=1221815284135100477&permissions=0&scope=bot`;
 /* Core Database */
 const botSchema = require('./Schema/botSchema');
 const userSchema = require('./Schema/userSchema')
