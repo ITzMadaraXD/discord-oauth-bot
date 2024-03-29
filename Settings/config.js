@@ -1,23 +1,23 @@
 module.exports = {
 
-    token: 'MTA1MDg1OTU2MTcwMTA4MTE2MA.G6pXjc.mR4UxmnyfDJqdCYOJIhEAzWTU8oqAVF9HTUEMw',
+    token: 'MTIyMTgxNTI4NDEzNTEwMDQ3Nw.GWrTqD.J5AoAu6q3HqsQzjagEIExKjnOdqKPS6S30qdc8',
     
-    authDevelopers: ['1032357870353784862','1043550134249726012'], // developers
-    authOwners: ['1046816796344340561'], // whitelist
+    authDevelopers: ['1020294908529102908','1123547091009011732'], // developers
+    authOwners: ['1020294908529102908'], // whitelist
 
     webhook: {
-        name: 'AuthCord',
+        name: 'AUTHMC',
         avatar: 'https://cdn.discordapp.com/avatars/1009773285577347193/fd0968c08b2cb3311672d030836da7c8.png',
-        url: 'https://discord.com/api/webhooks/1050862599765504030/46YIqo_8J60gHItLsRRG7NzOinuK8t4xl9r2fjX9XsfHtMJc_unWxQyjVByAuG-k5678',
+        url: 'https://cdn.discordapp.com/attachments/1222430254589677588/1223184352591085680/oh1t0m3bnh671.webp?ex=6618ee33&is=66067933&hm=7f2b23bdcf29aeb1295d330a869f647f457d4c718c98bb24e52fd46f03f5e873&',
     },
 
     client: {
-        id: "1050859561701081160",
-        secret: "sQd7ZcZpmxLhHfQlDVsNG42SLxtlDIHV",
-        redirect_uri: "http://93.190.8.234:319/auth/discord/callback",
+        id: "1221815284135100477",
+        secret: "ABuGIljMVhB37ry0U4GInX2xuWMYzEF9",
+        redirect_uri: "https://restorecord.com/api/callback",
         scope: ['identify', 'guilds.join'],
         footer: "AuthCord v1.0", // footer
-        serverLink: "https://discord.gg/badge", // server
+        serverLink: "https://discord.gg/GQgnpp3uyW", // server
     },
 
     web: {
